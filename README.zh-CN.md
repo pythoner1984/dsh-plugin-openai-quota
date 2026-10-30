@@ -4,6 +4,10 @@
 
 给 [DeepSeek Harness](https://github.com/deepseek-ai)（DSH）用的一行额度提示。贴在 Web UI 顶部边缘，不弹面板、不需要点击展开：
 
+![额度提示固定在 DSH 窗口顶部](docs/notice.png)
+
+*实拍自真实会话 —— DeepSeek 余额、当前与每周 ChatGPT 额度及其重置时间、最近一张重置卡的到期时间。数字就是账号当时返回的值：*
+
 ```
 DeepSeek余额：65.2元 | OpenAI额度26%（80%） 重置时间：12:10（11月7日） | 重置卡：1张 11月7日 05:23到期
 ```

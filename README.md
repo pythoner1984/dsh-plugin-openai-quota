@@ -4,6 +4,10 @@
 
 A one-line quota notice for [DeepSeek Harness](https://github.com/deepseek-ai) (DSH). It sits at the top edge of the Web UI, stays out of the way, and never opens a panel:
 
+![The quota notice pinned to the top edge of the DSH window](docs/notice.png)
+
+*Captured from a live session — DeepSeek balance, the current and weekly ChatGPT quota with their reset times, and the nearest reset-card expiry. The numbers are whatever your account reports at that moment:*
+
 ```
 DeepSeek余额：65.2元 | OpenAI额度26%（80%） 重置时间：12:10（11月7日） | 重置卡：1张 11月7日 05:23到期
 ```
