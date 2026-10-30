@@ -1,5 +1,7 @@
 # dsh-plugin-openai-quota
 
+**English** · [简体中文](README.zh-CN.md) · [Changelog](CHANGELOG.md) · [Issues](https://github.com/pythoner1984/dsh-plugin-openai-quota/issues)
+
 A one-line quota notice for [DeepSeek Harness](https://github.com/deepseek-ai) (DSH). It sits at the top edge of the Web UI, stays out of the way, and never opens a panel:
 
 ```
@@ -39,11 +41,17 @@ Clicking the reset-card segment opens the ChatGPT usage page in the operating sy
 
 ## Install
 
-Install it as a local bundle with the DSH Plugin Manager, pointing at this directory:
+Clone the repository somewhere permanent, then install it as a local bundle with the DSH Plugin Manager:
+
+```bash
+git clone https://github.com/pythoner1984/dsh-plugin-openai-quota.git
+```
 
 ```
-plugin_manager install_bundle   target: <absolute path to this directory>
+plugin_manager install_bundle   target: <absolute path to the clone>
 ```
+
+After a `git pull`, reinstall the bundle (or restart DSH) so the new code is loaded.
 
 Or insert it into your own Cordis composition:
 

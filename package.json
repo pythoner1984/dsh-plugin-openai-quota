@@ -4,6 +4,15 @@
   "type": "module",
   "description": "A one-line quota notice for DeepSeek Harness: DeepSeek balance, ChatGPT/Codex rate-limit windows and reset cards.",
   "license": "MIT",
+  "author": "Tokamak (pythoner1984)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pythoner1984/dsh-plugin-openai-quota.git"
+  },
+  "homepage": "https://github.com/pythoner1984/dsh-plugin-openai-quota#readme",
+  "bugs": {
+    "url": "https://github.com/pythoner1984/dsh-plugin-openai-quota/issues"
+  },
   "keywords": ["deepseek-harness", "dsh", "dsh-plugin", "openai", "chatgpt", "codex", "quota"],
   "exports": {
     ".": "./index.js",

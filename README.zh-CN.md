@@ -1,5 +1,7 @@
 # dsh-plugin-openai-quota
 
+[English](README.md) · **简体中文** · [更新日志](CHANGELOG.md) · [问题反馈](https://github.com/pythoner1984/dsh-plugin-openai-quota/issues)
+
 给 [DeepSeek Harness](https://github.com/deepseek-ai)（DSH）用的一行额度提示。贴在 Web UI 顶部边缘，不弹面板、不需要点击展开：
 
 ```
@@ -39,11 +41,17 @@ DeepSeek余额：65.2元 | OpenAI额度26%（80%） 重置时间：12:10（11月
 
 ## 安装
 
-用 DSH 插件管理器安装本地 bundle，指向本目录：
+先把仓库克隆到一个固定位置，再用 DSH 插件管理器安装本地 bundle：
+
+```bash
+git clone https://github.com/pythoner1984/dsh-plugin-openai-quota.git
+```
 
 ```
-plugin_manager install_bundle   target: <本目录绝对路径>
+plugin_manager install_bundle   target: <克隆目录绝对路径>
 ```
+
+`git pull` 之后重新安装一次 bundle（或重启 DSH）才会加载新代码。
 
 或者写进自己的 Cordis 组合：
 
