@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "OpenAI / DeepSeek 额度",
+    "description": "在 Harness Web UI 顶部显示 DeepSeek 余额、OpenAI 当前与每周额度、重置时间，以及 ChatGPT 重置卡到期时间。"
+  }
+}

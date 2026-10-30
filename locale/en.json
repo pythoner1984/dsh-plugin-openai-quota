@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "OpenAI / DeepSeek Quota",
+    "description": "Shows the DeepSeek balance, the current and weekly OpenAI quota with reset times, and ChatGPT reset-card expiry at the top of the Harness Web UI."
+  }
+}

@@ -1,0 +1,5 @@
+node_modules/
+*.log
+last-open.json
+.DS_Store
+Thumbs.db

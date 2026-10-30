@@ -1,0 +1,3 @@
+- insert:
+    - id: openai-quota
+      name: 'dsh-plugin-openai-quota'
